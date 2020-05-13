@@ -5,5 +5,5 @@
 # @example
 #   include puppet_apache
 class puppet_apache {
-  include apache::install
+  include puppet_apache::install
 }
